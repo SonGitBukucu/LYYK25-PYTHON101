@@ -5,4 +5,4 @@ urun = input("ne içmek istersiniz: ")
 
 #print("merhaba " + isim + " " + soyad + ". Yaşınız: " + str(yas) + ". İçecek tercihiniz: " + urun + ".")
 
-print(f"Merhaba {isim} {soyad}, yaşınız {yas}. İçecek tercihiniz: {urun}" )
+print(f"Merhaba {isim} {soyad}, yaşınız {yas}. İçecek tercihiniz: {urun}")
