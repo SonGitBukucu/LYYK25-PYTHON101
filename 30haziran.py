@@ -1,3 +1,5 @@
-xy = 212
+x = 212
+y = 123
 print("merhaba")
-print(xy)
+print(x)
+print(x + y)
