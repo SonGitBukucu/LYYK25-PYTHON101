@@ -1,2 +1,6 @@
 print("merhaba")
 print("tekrar merhaba")
+print("2tekrar merhaba")
+print("3tekrar merhaba")
+print("4tekrar merhaba")
+print("5tekrar merhaba")
