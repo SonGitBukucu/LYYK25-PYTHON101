@@ -1,6 +1,2 @@
-x = 212
-y = 123
-print("merhaba")
-print(x)
-print(y - x)
-print(x + y)
+isim = input("adınız: ")
+print(isim)
