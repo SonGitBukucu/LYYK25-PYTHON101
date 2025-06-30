@@ -2,7 +2,7 @@ isim = input("adınız: ")
 soyad = input("soyadınız: ")
 yas = int(input("yaşınız: "))
 urun = input("ne içmek istersiniz: ")
-tutar =  70
+tutar = 70
 
 #print("merhaba " + isim + " " + soyad + ". Yaşınız: " + str(yas) + ". İçecek tercihiniz: " + urun + ".")
 
