@@ -1,6 +1,5 @@
 isim = input("adınız: ")
 
-isim2 = input("soyadınız: ")
+yas = int(input("yaşınız: "))
 
-print(isim)
-print(isim + " " + isim2)
+urun = input("ne içmek istersiniz: ")
