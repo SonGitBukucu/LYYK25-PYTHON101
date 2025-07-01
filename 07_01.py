@@ -1,11 +1,11 @@
-pasta = int(input("Kaç kişi pasta istiyor? : "))
-ekler = int(input("Kaç kişi ekler istiyor? : "))
-baklava = int(input("Kaç kişi baklava istiyor? : "))
+pasta = int(input("Kaç kişi pasta yedi? : "))
+ekler = int(input("Kaç kişi ekler yedi? : "))
+baklava = int(input("Kaç kişi baklava yedi? : "))
 tatli =  pasta + ekler + baklava
 
-kandil = int(input("kaç kişi kandil simidi istiyor? : "))
-sarma = int(input("kaç kişi sarma istiyor? : "))
-kisir = int(input("kaç kişi kısır istiyor? : "))
+kandil = int(input("kaç kişi kandil simidi yedi? : "))
+sarma = int(input("kaç kişi sarma yedi? : "))
+kisir = int(input("kaç kişi kısır yedi? : "))
 tuzlu = kandil + sarma + kisir
 
 toplamYiyecek = tatli + tuzlu
