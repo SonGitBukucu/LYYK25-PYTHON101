@@ -5,20 +5,17 @@ biyoloji = int(input("Biyoloji ders notu: "))
 ortalama = (fizik + kimya + biyoloji) / 3
 ortalama = round(ortalama, 4)
 
-print(ortalama)
+print(f"ortalama: {ortalama}")
 
-if ortalama < 0:
-    print("Girilen notlar negatif olamaz.")
-elif ortalama > 100:
-    print("Girilen notlar 100'den büyük olamaz.")
+if((fizik or kimya or biyoloji < 0) or (fizik or kimya or biyoloji > 100)):
+    print("Girilen notlarda hata var.")
 else:
     print("Notlar geçerli.")
-
     if ortalama < 50:
         print("Sınıfta kaldınız.")
     elif ortalama == 50:
         print("Hediye kazandınız.")
     else:
-        print("Sınıfı geçtiniz.")
+        print("Sınıfı geçtiniz.")   
 
-#gün bitti
+    #gün bitti
