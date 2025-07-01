@@ -3,10 +3,10 @@
 
 #print(f"{simdikiYil} yılı itibariyle {simdikiYil - dogumYili} yaşındasınız.")
 
-#i = 1
-#while i < 501 :
-#    print(f"Merhabalar! ({i} / 500)")
-#    i += 1
+#x = 1
+#while x < 501 :
+#    print(f"Merhabalar! ({x} / 500)")
+#    i += x
 
 aci1 = int(input("Üçgenin birinci açısı: "))
 aci2 = int(input("Üçgenin ikinci açısı: "))
