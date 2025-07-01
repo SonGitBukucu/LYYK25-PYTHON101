@@ -17,8 +17,9 @@
 #else :
 #    print(f"üçgende birinci açı {aci1} derece, ikinci açı {aci2} derece ise üçüncü açı {aci3} derecedir.")
 
-erkekSayisi = int(input("1000 kişilik etkinlikte kaç erkek var? : "))
-kadinSayisi = 1000 - erkekSayisi
+kisiSayisi = int(input("etkinlikte kaç kişi var? : "))
+erkekSayisi = int(input("etkinlikte kaç erkek var? : "))
+kadinSayisi = kisiSayisi - erkekSayisi
 print(f"Etkinlikte {kadinSayisi} tane kadın var.")
 
-print(f"etkinlikteki erkeklerin yüzde oranı: {erkekSayisi/1000*100}, kadınların yüzde oranı: {kadinSayisi/1000*100} ")
+print(f"etkinlikteki erkeklerin yüzde oranı: {erkekSayisi/kisiSayisi*100}, kadınların yüzde oranı: {kadinSayisi/kisiSayisi*100} ")
