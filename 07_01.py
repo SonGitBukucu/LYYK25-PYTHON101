@@ -5,4 +5,4 @@ girdi1 = int(input("birinci sayiyi girin: "))
 girdi2 = int(input("ikinci sayıyı girin: "))
 sonuc = sayi1 + sayi2 + girdi1 + girdi2
 
-print(f"6 + 14 + {girdi1} + {girdi2} = {sonuc}")
+print(f"{sayi1} + {sayi2} + {girdi1} + {girdi2} = {sonuc}")
