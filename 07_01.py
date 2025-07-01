@@ -2,7 +2,7 @@
 
 fizik = int(input("Fizik ders notu: "))
 kimya = int(input("Kimya ders notu: "))
-biyoloji = int(input("biyoloji ders notu: "))
+biyoloji = int(input("Biyoloji ders notu: "))
 
 ortalama = (fizik + kimya + biyoloji) / 3
 
