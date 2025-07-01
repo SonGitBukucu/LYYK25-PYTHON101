@@ -1,5 +1,3 @@
-#girilen 3 ders notu, ortalama bul, 50 < ise sınıfta kal, büyükse geç
-
 fizik = int(input("Fizik ders notu: "))
 kimya = int(input("Kimya ders notu: "))
 biyoloji = int(input("Biyoloji ders notu: "))
