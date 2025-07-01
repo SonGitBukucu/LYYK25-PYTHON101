@@ -20,6 +20,11 @@
 kisiSayisi = int(input("etkinlikte kaç kişi var? : "))
 erkekSayisi = int(input("etkinlikte kaç erkek var? : "))
 kadinSayisi = kisiSayisi - erkekSayisi
+
+kadinYuzde = kadinSayisi/kisiSayisi*100
+erkekYuzde = erkekSayisi/kisiSayisi*100
+
 print(f"Etkinlikte {kadinSayisi} tane kadın var.")
 
-print(f"etkinlikteki erkeklerin yüzde oranı: {erkekSayisi/kisiSayisi*100}, kadınların yüzde oranı: {kadinSayisi/kisiSayisi*100} ")
+print(f"etkinlikteki erkeklerin yüzde oranı: {erkekYuzde}")
+print(f"etkinlikteki kadınların yüzde oranı: {kadinYuzde}")
