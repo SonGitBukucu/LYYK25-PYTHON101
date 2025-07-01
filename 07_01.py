@@ -24,7 +24,10 @@ kadinSayisi = kisiSayisi - erkekSayisi
 kadinYuzde = kadinSayisi/kisiSayisi*100
 erkekYuzde = erkekSayisi/kisiSayisi*100
 
+kadinYuzdeTam = round(kadinYuzde, 0)
+erkekYuzdeTam = round(erkekYuzde, 0)
+
 print(f"Etkinlikte {kadinSayisi} tane kadın var.")
 
-print(f"etkinlikteki erkeklerin yüzde oranı: {erkekYuzde}")
-print(f"etkinlikteki kadınların yüzde oranı: {kadinYuzde}")
+print(f"etkinlikteki erkeklerin yüzde oranı: {erkekYuzdeTam}")
+print(f"etkinlikteki kadınların yüzde oranı: {kadinYuzdeTam}")
