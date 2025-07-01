@@ -1,7 +1,7 @@
 isim = "alper"
-sayi = 6
+sayi1 = 6
+sayi2 = 14
 ondalik = 3.14
+sonuc = sayi1 + sayi2
 
-print(type(isim))
-print(type(sayi))
-print(type(ondalik))
+print(sonuc)
