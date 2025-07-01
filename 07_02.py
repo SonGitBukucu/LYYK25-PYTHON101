@@ -7,8 +7,8 @@ ortalama = round(ortalama, 4)
 
 print(f"ortalama: {ortalama}")
 
-if((fizik or kimya or biyoloji < 0) or (fizik or kimya or biyoloji > 100)):
-    print("Girilen notlarda hata var.")
+if(fizik < 0 or fizik > 100 or kimya < 0 or kimya > 100 or biyoloji < 0 or biyoloji > 100):
+    print("Girilen notlarda hata var. Notları tekrar giriniz.")
 else:
     print("Notlar geçerli.")
     if ortalama < 50:
