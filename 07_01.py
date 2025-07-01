@@ -14,6 +14,6 @@ tuzluYuzde = tuzlu / toplamYiyecek * 100
 baklavaYuzde = baklava / tatli * 100
 sarmaYuzde = sarma / tuzlu * 100
 
-print(f"tatlı-tuzlu yüzde oranları: {tatliYuzde} / {tuzluYuzde}")
+print(f"tatlı-tuzlu yüzde oranları: {tatliYuzde} tatlı / {tuzluYuzde} tuzlu")
 print(f"tatlılar arasında baklavanın oranı yüzde {baklavaYuzde}")
 print(f"tuzlular arasında sarmanın yüzde oranı yüzde {sarmaYuzde}")
