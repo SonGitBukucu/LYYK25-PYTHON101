@@ -20,3 +20,5 @@ else:
         print("Hediye kazandınız.")
     else:
         print("Sınıfı geçtin.")
+
+#gün bitti
