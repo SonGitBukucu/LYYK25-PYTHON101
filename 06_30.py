@@ -11,3 +11,5 @@ print(f"Merhaba {isim} {soyad}, yaşınız {yas}. İçecek tercihiniz: {urun}. T
 yasKontrol = yas < 18
 
 print(type(yasKontrol))
+
+#gün bitti
