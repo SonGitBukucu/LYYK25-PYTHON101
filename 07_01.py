@@ -1,33 +1,19 @@
-#dogumYili = int(input("Doğum yılınız: "))
-#simdikiYil = 2025
+pasta = int(input("Kaç kişi pasta istiyor? : "))
+ekler = int(input("Kaç kişi ekler istiyor? : "))
+baklava = int(input("Kaç kişi baklava istiyor? : "))
+tatli =  pasta + ekler + baklava
 
-#print(f"{simdikiYil} yılı itibariyle {simdikiYil - dogumYili} yaşındasınız.")
+kandil = int(input("kaç kişi kandil simidi istiyor? : "))
+sarma = int(input("kaç kişi sarma istiyor? : "))
+kisir = int(input("kaç kişi kısır istiyor? : "))
+tuzlu = kandil + sarma + kisir
 
-#x = 1
-#while x < 501 :
-#    print(f"{x}. Merhabalar!")
-#    x += 1
+toplamYiyecek = tatli + tuzlu
+tatliYuzde = tatli / toplamYiyecek * 100
+tuzluYuzde = tuzlu / toplamYiyecek * 100
+baklavaYuzde = baklava / tatli * 100
+sarmaYuzde = sarma / tuzlu * 100
 
-#aci1 = int(input("Üçgenin birinci açısı: "))
-#aci2 = int(input("Üçgenin ikinci açısı: "))
-#aci3 = 180 - (aci1 + aci2)
-
-#if aci3 < 0:
-#    print(f"Hatalı açı girdiniz. Üçüncü açı değeri: {aci3} derece")
-#else :
-#    print(f"üçgende birinci açı {aci1} derece, ikinci açı {aci2} derece ise üçüncü açı {aci3} derecedir.")
-
-kisiSayisi = int(input("etkinlikte kaç kişi var? : "))
-erkekSayisi = int(input("etkinlikte kaç erkek var? : "))
-kadinSayisi = kisiSayisi - erkekSayisi
-
-kadinYuzde = kadinSayisi/kisiSayisi*100
-erkekYuzde = erkekSayisi/kisiSayisi*100
-
-kadinYuzdeTam = round(kadinYuzde, 0)
-erkekYuzdeTam = round(erkekYuzde, 0)
-
-print(f"Etkinlikte {kadinSayisi} tane kadın var.")
-
-print(f"etkinlikteki erkeklerin yüzde oranı: {erkekYuzdeTam}")
-print(f"etkinlikteki kadınların yüzde oranı: {kadinYuzdeTam}")
+print(f"tatlı-tuzlu yüzde oranları: {tatliYuzde} / {tuzluYuzde}")
+print(f"tatlılar arasında baklavanın oranı yüzde {baklavaYuzde}")
+print(f"tuzlular arasında sarmanın yüzde oranı yüzde {sarmaYuzde}")
