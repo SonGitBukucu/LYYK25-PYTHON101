@@ -1,4 +1,3 @@
-isim = "alper"
 sayi1 = 6
 sayi2 = 14
 girdi1 = int(input("birinci sayiyi girin: "))
