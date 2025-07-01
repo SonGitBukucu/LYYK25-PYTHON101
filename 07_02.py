@@ -18,4 +18,3 @@ else:
     else:
         print("Sınıfı geçtiniz.")   
 
-    #gün bitti
