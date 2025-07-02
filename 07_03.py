@@ -20,5 +20,6 @@ else:
     while input("Şifre giriniz: ") != sifre:
         print("Şifre yanlış.")
     else:
-        print("Başarıylas giriş yapıldı.")
+        print("Başarıyla giriş yapıldı.")
 """
+
