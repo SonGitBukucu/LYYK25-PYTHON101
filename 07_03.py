@@ -23,3 +23,10 @@ else:
         print("Başarıyla giriş yapıldı.")
 """
 
+""" 5 girince geri sayma
+while int(input("Bir sayı girin: ")) != 5:
+    print("Başka bir sayı girin (5 deneyin bence): ")
+else:
+    for i in range(0, 6):
+        print(5 - i)
+"""
