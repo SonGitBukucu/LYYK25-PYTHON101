@@ -1,5 +1,4 @@
-puan = 100
-while puan > 0:
-    print("şarj seviyesi: ", puan)
-    puan -= 10
-print("puan bitti")
+i = 1
+while i < 5001:
+    print("selam",i)
+    i += 1
