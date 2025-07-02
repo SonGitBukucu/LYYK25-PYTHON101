@@ -30,3 +30,25 @@ else:
     for i in range(0, 6):
         print(5 - i)
 """
+
+
+""" zor sayı tahmin sorusu :O
+cevap = 50
+x = int(input("Gizli sayıyı tahmin edin: "))
+
+while x != cevap:
+    if x < cevap:
+        if cevap - x <= 10:
+            print("yukarı çık, fark 10'dan az")
+        else:
+            print("yukarı çık")
+        x = int(input("Sayıyı tahmin edin: "))
+    else:
+        if -(cevap - x) <= 10:
+            print("aşağı in, fark 10'dan az")
+        else:
+            print("aşağı in")
+        x = int(input("Sayıyı tahmin edin: "))
+else:
+    print(f"Tahmininiz doğru! Gizli sayı: {cevap}")
+"""
