@@ -9,4 +9,4 @@ elif hava <= 20 and hava > 10:
 elif hava <= 10:
     print("mont giy")
 else:
-    print("hava çok sıcak")
+    print("hava aşırı sıcak")
