@@ -1,12 +1,12 @@
-hava = int(input("Hava kaç derece? : "))
+dersNot = int(input("not giriniz : "))
+devamsizlik = int(input("kaç gün devamsızlığınız var? : "))
 
-if hava <= 40 and hava > 30:
-    print("denize gir")
-elif hava <= 30 and hava > 20:
-    print("dondurma ye")
-elif hava <= 20 and hava > 10:
-    print("hırka giy")
-elif hava <= 10:
-    print("mont giy")
+if devamsizlik < 10:
+    if dersNot >= 85 and dersNot <= 100:
+        print("Takdir belgesi aldınız")
+    elif dersNot < 85 and dersNot >= 70:
+        print("Teşekkür belgesi aldınız.")
+    else:
+        print("Hiçbir belge alamadınız.")
 else:
-    print("hava aşırı sıcak")
+    print("Hiçbir belge alamadınız.")
