@@ -23,7 +23,7 @@ else:
         print("Başarıyla giriş yapıldı.")
 """
 
-""" 5 girince geri sayma
+""" 5 girince geri sayma (döngülü mü emin olamadım ama döngülü yaptım yine de)
 while int(input("Bir sayı girin: ")) != 5:
     print("Başka bir sayı girin (5 deneyin bence): ")
 else:
