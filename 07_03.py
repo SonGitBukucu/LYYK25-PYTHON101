@@ -32,23 +32,17 @@ else:
 """
 
 
-""" zor sayı tahmin sorusu :O
+""" sayı tahmin etmece
 cevap = 50
 x = int(input("Gizli sayıyı tahmin edin: "))
 
 while x != cevap:
     if x < cevap:
-        if cevap - x <= 10:
-            print("yukarı çık, fark 10'dan az")
-        else:
-            print("yukarı çık")
-        x = int(input("Sayıyı tahmin edin: "))
+        print("yukarı çık")
+        x = int(input("Gizli sayıyı tahmin edin: "))
     else:
-        if -(cevap - x) <= 10:
-            print("aşağı in, fark 10'dan az")
-        else:
-            print("aşağı in")
-        x = int(input("Sayıyı tahmin edin: "))
+        print("aşağı in")
+        x = int(input("Gizli sayıyı tahmin edin: "))
 else:
     print(f"Tahmininiz doğru! Gizli sayı: {cevap}")
 """
