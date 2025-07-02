@@ -9,3 +9,16 @@ while x != 0:
 if x == 0:
     print(a)
 """
+
+""" giriş sistemi
+isim = "admin"
+sifre = "123"
+
+while input("Kullanıcı adı giriniz: ") != isim:
+    print("Kullanıcı adı bulunmamaktadır.")
+else:
+    while input("Şifre giriniz: ") != sifre:
+        print("Şifre yanlış.")
+    else:
+        print("Başarıylas giriş yapıldı.")
+"""
