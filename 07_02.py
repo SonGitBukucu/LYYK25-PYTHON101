@@ -1,20 +1,26 @@
 fizik = int(input("Fizik ders notu: "))
-kimya = int(input("Kimya ders notu: "))
-biyoloji = int(input("Biyoloji ders notu: "))
-
-ortalama = (fizik + kimya + biyoloji) / 3
-ortalama = round(ortalama, 4)
-
-print(f"ortalama: {ortalama}")
-
-if fizik < 0 or fizik > 100 or kimya < 0 or kimya > 100 or biyoloji < 0 or biyoloji > 100:
-    print("Girilen notlarda hata var. Notları tekrar giriniz.")
+if fizik < 0:
+    print("Notlar 0'dan küçük olamaz")
+elif fizik > 100:
+    print("Notlar 100'den büyük olamaz")
 else:
-    print("Notlar geçerli.")
-    if ortalama < 50:
-        print("Sınıfta kaldınız.")
-    elif ortalama == 50:
-        print("Hediye kazandınız.")
+    kimya = int(input("Kimya ders notu: "))
+    if kimya < 0:
+        print("Notlar 0'dan küçük olamaz")
+    elif kimya > 100:
+        print("Notlar 100'den büyük olamaz")
     else:
-        print("Sınıfı geçtiniz.")   
-
+        biyoloji = int(input("Biyoloji ders notu: "))
+        if biyoloji < 0:
+            print("Notlar 0'dan küçük olamaz")
+        elif biyoloji > 100:
+            print("Notlar 100'den büyük olamaz")
+        else:
+            ortalama = (fizik + kimya + biyoloji) / 3
+            print("Notlar geçerli.")
+            if ortalama < 50:
+                print("Sınıfta kaldınız.")
+            elif ortalama == 50:
+                print("Hediye kazandınız.")
+            else:
+                print("Sınıfı geçtiniz.") 
