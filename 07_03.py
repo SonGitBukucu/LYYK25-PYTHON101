@@ -1,16 +1,18 @@
-""" sıfır girilene kadar girilen değerleri toplayıp yazdır
+"""
+#0 girilene kadar girilen tüm sayıların toplamı
 x = int(input("bir sayı girin: "))
 
 a = x
 
 while x != 0:
-    x = int(input("bir sayı girin: "))
+    x = int(input("bir sayı daha girin: "))
     a += x
 if x == 0:
     print(a)
 """
 
-""" giriş sistemi
+"""
+#giriş sistemi
 isim = "admin"
 sifre = "123"
 
@@ -22,8 +24,10 @@ else:
     else:
         print("Başarıyla giriş yapıldı.")
 """
+        
 
-""" 5 girince geri sayma (döngülü mü emin olamadım ama döngülü yaptım yine de)
+""" 
+#5 girince geri sayma (döngülü mü emin olamadım ama döngülü yaptım yine de)
 while int(input("Bir sayı girin: ")) != 5:
     print("Başka bir sayı girin (5 deneyin bence): ")
 else:
@@ -32,8 +36,11 @@ else:
 """
 
 
-""" sayı tahmin etmece
-cevap = 50
+"""
+#sayı tahmin etmece
+import random
+
+cevap = random.randint(0,100)
 x = int(input("Gizli sayıyı tahmin edin: "))
 
 while x != cevap:
